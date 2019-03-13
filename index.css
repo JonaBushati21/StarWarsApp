@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.title {
+  font-family: neon;
+  color: #FEB1C0;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+.title {
+  animation: title 1s ease infinite;
+  -moz-animation: title 1s ease infinite;
+  -webkit-animation: title 1s ease infinite;
+}
+
+@keyframes title {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #FEB1C0;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #FEB1C0;
+    color: #806914;
+  }
+}
+
+.bodyload
+{
+	background-image: url(stars.jpg);
+
+}
+.films_title, .planets_title, .people_title{
+	
+	 text-decoration: line-through;
+   color:#4E4C4B
+}
+
+.films, .people, .planets
+{
+  border:3px solid #deab12f5 ;
+
+} 
+.tag, .plot
+{
+   color:#4E4C4B
+}
+
+.typed
+{
+  color: #FEB1C0
+}
+
+select
+{
+ font-family: Georgia, serif;
+
+}
+
+#showme {
+  color: white;
+}
+button {
+  
+  padding: 1.5em auto;
+  margin: 1em auto;
+  background-color: #FEB1C0;
+ max-width:100%;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+ 
+}
+
+
+.text
+{
+  
+  color: #FEB1C0
+}
+
